@@ -39,7 +39,7 @@ body{
 }
 
 .reserve {
-padding: 30px 0px 20px 0px;
+padding: 0px 0px 20px 0px;
  }
 
 .tab-content {
@@ -62,4 +62,11 @@ padding: 30px 0px 20px 0px;
     top: 0;
     left: 0;
     min-height: 300px;
+}
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
 }
